@@ -18,5 +18,8 @@ Clone the repository, `cd` into it and pull the latest changes. Once you are don
 ## Workshops
 Jekyll has posts and we decided to make a workshop a post for convenience. Every post has its own markdown file. So just head over, create a new workshop post and send us a pull request.
 
+## Issues
+We collect issues about things we still need to do. Please let us know in the issue if you want to start working on it.
+
 ## Contact
 If you have any questions please don't hesitate to contact us at <info@clojurebridge.org>.
