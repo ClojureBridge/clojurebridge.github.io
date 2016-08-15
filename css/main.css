@@ -95,11 +95,11 @@ body {
   color: #797b91;
 }
 
-#events-list img.city {
-  display: block;
-  max-width: 247px;
-  max-height: 247px;
-  background-position: ;
+#events-list .city {
+  width: 247px;
+  height: 247px;
+  background-position: center;
+  background-size: cover;
 }
 
 #events-list img.organizer {
