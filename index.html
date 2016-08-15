@@ -4,7 +4,11 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 id="banner">
+    ClojureBridge aims to increase diversity within the Clojure
+    community by offering free, beginner-friendly Clojure programming
+    workshops for women.
+  </h1>
 
   <ul class="post-list">
 
@@ -21,7 +25,5 @@ layout: default
           </li>
         {% endif %}
     {% endfor %}
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

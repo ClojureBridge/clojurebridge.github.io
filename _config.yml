@@ -12,7 +12,7 @@ description: ClojureBridge aims to increase diversity within the Clojure
   community by offering free, beginner-friendly Clojure programming workshops
   for women.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://clojurebridge.org"
 twitter_username: clojurebridge
 github_username:  clojurebridge
 
