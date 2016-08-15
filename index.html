@@ -10,20 +10,37 @@ layout: default
     workshops for women.
   </h1>
 
-  <ul class="post-list">
+  <div id="events" class="content-wrapper">
+    <div class="content">
 
-    {% assign curDate = site.time | date: '%s' %}
-    {% for post in site.posts %}
-        {% assign postStartDate = post.date | date: '%s' %}
-        {% if postStartDate >= curDate %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2>
+        Upcoming Events
+      </h2>
 
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-        {% endif %}
-    {% endfor %}
+      <ul id="events-list">
+
+        {% assign curDate = site.time | date: '%s' %}
+        {% for post in site.posts %}
+            {% assign postStartDate = post.date | date: '%s' %}
+            {% if postStartDate >= curDate %}
+              <li>
+                <div class="frame-square city">
+                  <div class="crop">
+                    <img src="http://www.telegraph.co.uk/content/dam/Travel/leadAssets/24/49/david-bowie_2449256a-large.jpg">
+                  </div>
+                </div>
+                <img src="https://avatars1.githubusercontent.com/u/5123681?v=3&s=460" class="organizer">
+                <h3>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h3>
+                <p>{{ post.workshop_dates }}</li>
+              </li>
+            {% endif %}
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
 
 </div>

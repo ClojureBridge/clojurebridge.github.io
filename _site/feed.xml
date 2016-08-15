@@ -5,17 +5,17 @@
     <description>ClojureBridge aims to increase diversity within the Clojure community by offering free, beginner-friendly Clojure programming workshops for women.</description>
     <link>http://clojurebridge.org/</link>
     <atom:link href="http://clojurebridge.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Aug 2016 15:47:41 +0200</pubDate>
-    <lastBuildDate>Mon, 15 Aug 2016 15:47:41 +0200</lastBuildDate>
+    <pubDate>Mon, 15 Aug 2016 17:59:08 +0200</pubDate>
+    <lastBuildDate>Mon, 15 Aug 2016 17:59:08 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Event in Berlin</title>
+        <title>Berlin, Germany</title>
         <description>&lt;p&gt;Hello!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 15 Sep 2016 11:37:37 +0200</pubDate>
-        <link>http://clojurebridge.org/2016/09/15/Berlin.html</link>
-        <guid isPermaLink="true">http://clojurebridge.org/2016/09/15/Berlin.html</guid>
+        <pubDate>Fri, 16 Sep 2016 11:37:37 +0200</pubDate>
+        <link>http://clojurebridge.org/2016/09/16/Berlin.html</link>
+        <guid isPermaLink="true">http://clojurebridge.org/2016/09/16/Berlin.html</guid>
         
         
       </item>
