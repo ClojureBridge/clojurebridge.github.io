@@ -129,3 +129,22 @@ img {
 .fa span {
   display: none;
 }
+
+.button-donate {
+  font-weight: bold;
+  padding: 1em 1.5em 1.2em;
+  border-radius: 6px;
+  font-size: 13px;
+  background: #fec348 none repeat scroll 0 0;
+  border-color: #feb215;
+  color: #002f86;
+}
+
+.button-donate img {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+#paypal-button {
+  float: right;
+}
