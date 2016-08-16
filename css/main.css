@@ -1,11 +1,13 @@
 body {
   margin: 0;
-  border-top: 5px solid rgb(51, 52, 62);
   font: 16px/1.4 "freight-sans-pro", "Helvetica", "Arial", sans-serif;
 }
 
 /* TODO: Change to id */
 .site-header {
+  border-width: 5px 0 3px;
+  border-style: solid;
+  border-color: rgb(51, 52, 62);
   overflow: auto;
 }
 
@@ -47,9 +49,7 @@ body {
 
 #banner {
   margin: 0;
-  border-width: 3px 0;
-  border-style: solid;
-  border-color: rgb(51, 52, 62);
+  border-bottom: 3px solid rgb(51, 52, 62);
   background: url(/assets/images/hammock.jpg) 0 -1.25em;
   padding: 1em 1em 2.25em;
   text-align: center;
@@ -95,11 +95,11 @@ body {
   color: #797b91;
 }
 
-#events-list img.city {
-  display: block;
-  max-width: 247px;
-  max-height: 247px;
-  background-position: ;
+#events-list .city {
+  width: 247px;
+  height: 247px;
+  background-position: center;
+  background-size: cover;
 }
 
 #events-list img.organizer {
