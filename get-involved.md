@@ -4,6 +4,8 @@ title: Get involved
 permalink: /get-involved/
 ---
 
+# Get involved
+
 ClojureBridge aims to increase diversity within the Clojure community by offering free, beginner-friendly Clojure programming workshops for women.
 
 ClojureBridge was started in 2014 and is part of [Bridge Foundry](http://bridgefoundry.org/). All around the world there have been workshops organized by people like you! Many people volunteered in different ways. Here are some insights for you to get involved:
