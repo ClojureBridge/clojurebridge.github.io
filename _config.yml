@@ -19,3 +19,6 @@ github_username:  clojurebridge
 # Build settings
 markdown: kramdown
 future: true
+
+# Site builder settings
+exclude: ['Gemfile', 'Gemfile.lock']
