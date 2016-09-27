@@ -3,6 +3,12 @@ body {
   font: 16px/1.4 "freight-sans-pro", "Helvetica", "Arial", sans-serif;
 }
 
+.content h1 {
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 0.8em;
+}
+
 /* TODO: Change to id */
 .site-header {
   max-width: 62.5em;
@@ -154,6 +160,6 @@ img {
 }
 
 #paypal-button {
-  float: right;
-  margin-bottom: 0.8em;
+  text-align: right;
+  margin-bottom: -2.0em;
 }
