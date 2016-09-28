@@ -15,6 +15,8 @@ gem install jekyll
 ```
 Clone the repository, `cd` into it, pull the latest changes and `bundle install`. Once you are done with that you can run Jekyll locally with `bundle exec jekyll serve` and see it running in your browser at http://localhost:4000/.
 
+If you run into problems with bundler/nokogiri etc. please checkout this [PR thread](https://github.com/ClojureBridge/website/pull/12#issuecomment-250129774).
+
 ## Workshops
 Jekyll has posts and we decided to make a workshop a post for convenience. Every post has its own markdown file. So just head over, create a new workshop post and send us a pull request.
 
