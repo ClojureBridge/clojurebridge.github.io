@@ -13,12 +13,12 @@ After that you can run the following command in the Terminal:
 ```
 gem install jekyll
 ```
-Clone the repository, `cd` into it, pull the latest changes and `bundle install`. Once you are done with that you can run Jekyll locally with `bundle exec jekyll serve` and see it running in your browser at http://localhost:4000/.
+Clone the repository, `cd` into it, pull the latest changes and enter `bundle install` in your Terminal. Once you are done with that you can run Jekyll locally with `bundle exec jekyll serve` and see it running in your browser at http://localhost:4000/.
 
 If you run into problems with bundler/nokogiri etc. please checkout this [PR thread](https://github.com/ClojureBridge/website/pull/12#issuecomment-250129774).
 
 ## Workshops
-Jekyll has posts and we decided to make a workshop a post for convenience. Every post has its own markdown file. So just head over, create a new workshop post and send us a pull request.
+Jekyll has `posts` and we decided to make a workshop a `post` for convenience. Every `post` has its own markdown file. So just head over, create a new workshop `post` and send us a pull request.
 
 ## Issues
 We collect issues about things we still need to do. Please let us know in the issue if you want to start working on it.
