@@ -61,13 +61,25 @@ body {
   border-bottom: 3px solid rgb(97, 99, 118);
 }
 
-#banner {
+#banner-picture {
   margin: 0;
   border-bottom: 3px solid rgb(51, 52, 62);
   background: url(/assets/images/hammock.jpg) 0 -1.25em;
   padding: 1em 1em 2.25em;
+}
+
+#banner {
+  max-width: 62.5em;
+  margin: 0 auto;
+  padding-top: 3.5em;
+  padding-bottom: 2em;
+}
+
+#banner h1 {
   text-align: center;
   color: #fff;
+  padding: 0 1em;
+  margin: 0;
 }
 
 .content-wrapper {
