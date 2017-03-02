@@ -57,7 +57,8 @@ body {
   background-color: rgb(249, 249, 249);
 }
 
-#site-nav li a:hover {
+#site-nav li a:hover,
+#site-nav li a.current {
   border-bottom: 3px solid rgb(97, 99, 118);
 }
 
@@ -174,6 +175,7 @@ img {
   background: #fec348 none repeat scroll 0 0;
   border: 1px solid #feb215;
   color: #002f86;
+  text-decoration: none;
 }
 
 .button-donate img {
