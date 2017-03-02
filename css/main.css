@@ -175,6 +175,7 @@ img {
   background: #fec348 none repeat scroll 0 0;
   border: 1px solid #feb215;
   color: #002f86;
+  text-decoration: none;
 }
 
 .button-donate img {
