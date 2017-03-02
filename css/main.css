@@ -61,6 +61,10 @@ body {
   border-bottom: 3px solid rgb(97, 99, 118);
 }
 
+.current {
+  border-bottom: 3px solid rgb(97, 99, 118);
+}
+
 #banner-picture {
   margin: 0;
   border-bottom: 3px solid rgb(51, 52, 62);
