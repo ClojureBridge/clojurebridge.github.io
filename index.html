@@ -20,24 +20,21 @@ layout: default
         Upcoming Events
       </h2>
 
+    {% assign upcoming_events = site.posts | where_exp: 'post', 'post.date >= site.time' %}
+    {% if upcoming_events.size == 0 %}
+      <p>There are no upcoming workshops.</p>
+    {% else %}
       <ul id="events-list">
-
-        {% assign curDate = site.time | date: '%s' %}
-        {% for post in site.posts %}
-            {% assign postStartDate = post.date | date: '%s' %}
-            {% if postStartDate >= curDate %}
-              <li>
-                <div class="city" style="background-image: url(http://www.telegraph.co.uk/content/dam/Travel/leadAssets/24/49/david-bowie_2449256a-large.jpg)"></div>
-                <img src="https://avatars1.githubusercontent.com/u/5123681?v=3&s=460" class="organizer">
-                <h3>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h3>
-                <p>{{ post.workshop_dates }}</li>
-              </li>
-            {% endif %}
-        {% endfor %}
-
+      {% for post in upcoming_events reversed %}
+        <li>
+          <div class="background-image city" style="background-image: url({{ post.city_image_url }})"></div>
+          <div class="background-image organizer" style="background-image: url(https://www.gravatar.com/avatar/{{ post.organizers.email | strip | downcase | md5 }}?s=200)"></div>
+          <h3><a class="post-link" href="{{ post.url }}">{{ post.city }}</a></h3>
+          <p>{{ post.workshop_dates }}</li>
+        </li>
+      {% endfor %}
       </ul>
+    {% endif %}
 
     </div>
   </div>

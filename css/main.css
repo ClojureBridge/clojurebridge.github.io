@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font: 16px/1.4 "freight-sans-pro", "Helvetica", "Arial", sans-serif;
+  color: #222;
 }
 
 .content h1 {
@@ -109,13 +110,19 @@ body {
 #events-list {
   padding: 0;
   list-style: none;
+  overflow: hidden;
 }
 
 #events-list li {
+  float: left;
   width: 247px;
   padding: 0 0 2em;
   background: #e9e9e9;
   text-align: center;
+}
+
+#events-list li + li {
+  margin-left: 30px;
 }
 
 #events-list h3 {
@@ -132,11 +139,9 @@ body {
 #events-list .city {
   width: 247px;
   height: 247px;
-  background-position: center;
-  background-size: cover;
 }
 
-#events-list img.organizer {
+#events-list .organizer {
   margin: -40px auto 0;
   display: block;
   width: 57px;
@@ -162,11 +167,19 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  margin: 0.2em 0 0.5em;
+  color: #33343e;
 }
 
 img {
   max-width: 100%;
+}
+
+.background-image {
+  background-position: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .fa span {
@@ -192,6 +205,94 @@ img {
 #paypal-button {
   text-align: left;
   margin-bottom: 1.0em;
+}
+
+.content-0:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.content-1 {
+  float: left;
+  width: 50%;
+}
+
+.content-1 .content-inner {
+  padding: 0 0.9375em 0 0;
+}
+
+.content-2 {
+  float: right;
+  width: 50%;
+}
+
+.content-2 .content-inner {
+  padding: 0 0 0 0.9375em;
+}
+
+.location {
+  margin: -0.55em 0 0.5em;
+  font-size: 1.5em;
+  color: #33343e;
+}
+
+.dates {
+  background: #e9e9e9;
+  padding: 0.25em 0.5em;
+  font-size: 90%;
+  color: #33343e;
+}
+
+h3 {
+  margin-bottom: 0.375em;
+  border-bottom: 2px solid #999a9f;
+  padding-bottom: 0.375em;
+  font-size: 1.125em;
+}
+
+.organizers {
+  background: #e9e9e9;
+  padding: 0.5em 1em;
+}
+
+.organizers .social-media {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 90%;
+  color: #707178;
+  text-transform: uppercase;
+}
+
+.organizers ul {
+  margin: 0.5em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sponsors p {
+  margin: 1.5em 0 0.5em;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.sponsors ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sponsors li {
+  margin-bottom: 4px;
+}
+
+.sponsors img {
+  border: 1px solid #e9e9e9;
+  padding: 5px;
+}
+
+.sponsors a:hover img {
+  border-color: #33343e;
 }
 
 @media screen and (min-width: 640px) {
