@@ -24,15 +24,17 @@ body {
   overflow: auto;
 }
 
-#home {
-  float: left;
-  margin: 12px 0 12px 15px;
-  display: block;
-  width: 120px;
-  height: 120px;
-  background: url(../assets/images/logo-small.png);
-  line-height: 999;
-  overflow: hidden;
+@media screen and (min-width: 800px) {
+  .logo {
+    float: left;
+    margin: 12px 0 12px 15px;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../assets/images/logo.png);
+    line-height: 999;
+    overflow: hidden;
+  }
 }
 
 #site-nav {
@@ -193,4 +195,24 @@ img {
     text-align: right;
     margin-bottom: -2.0em;
   }
+}
+
+@media screen and (max-width: 799px) {
+  .logo {
+    background: url(../assets/images/logo-small.png);
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 10px 0px 10px 20px;
+    background-repeat: no-repeat;
+  }
+
+  #site-nav {
+    margin: 0px 0px 0px 0px;
+    visibility: hidden;
+  }
+
+  .header-content {
+    overflow: inherit;
+    border-style: none;
 }
