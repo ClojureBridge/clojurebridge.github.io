@@ -4,7 +4,7 @@ title: Donate
 permalink: /donate/
 ---
 
-![ClojureBridge attendees](/assets/images/header-donate.jpg)
+![ClojureBridge attendees](../assets/images/header-donate.jpg)
 
 <div id="paypal-button">
   <a class="button-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3L8RHEQS3QHPA">Donate with <img alt="PayPal" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png">
