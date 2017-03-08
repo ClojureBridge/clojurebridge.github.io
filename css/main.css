@@ -30,7 +30,7 @@ body {
   display: block;
   width: 120px;
   height: 120px;
-  background: url(/assets/images/logo-small.png);
+  background: url(../assets/images/logo-small.png);
   line-height: 999;
   overflow: hidden;
 }
@@ -65,7 +65,7 @@ body {
 #banner-picture {
   margin: 0;
   border-bottom: 3px solid rgb(51, 52, 62);
-  background: url(/assets/images/hammock.jpg) 0 -1.25em;
+  background: url(../assets/images/hammock.jpg) 0 -1.25em;
   padding: 1em 1em 2.25em;
 }
 
@@ -95,7 +95,7 @@ body {
 
 #events {
   border-bottom: 3px solid rgb(51, 52, 62);
-  background: url(/assets/images/honeycomb-bg.png);
+  background: url(../assets/images/honeycomb-bg.png);
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
