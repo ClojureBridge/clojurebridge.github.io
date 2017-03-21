@@ -210,7 +210,8 @@ img {
 
   .mobile-dropdown #site-nav {
     line-height: 0.9;
-    visibility: visible;
+    position: inherit;
+    left: inherit;
   }
 
   .mobile-dropdown #site-nav {
@@ -248,7 +249,8 @@ img {
 
   #site-nav {
     margin: 0px 0px 0px 0px;
-    visibility: hidden;
+    position: absolute;
+    left: -999px;
   }
 
   .header-content {
