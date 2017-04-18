@@ -11,8 +11,8 @@ email: info@clojurebridge.org
 description: ClojureBridge aims to increase diversity within the Clojure
   community by offering free, beginner-friendly Clojure programming workshops
   for women.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://clojurebridge.org"
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'http://clojurebridge.org'
 twitter_username: clojurebridge
 github_username:  clojurebridge
 
@@ -21,4 +21,4 @@ markdown: kramdown
 future: true
 
 # Site builder settings
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude: [ Gemfile', 'Gemfile.lock', vendor ]

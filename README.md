@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ClojureBridge/clojurebridge.github.io.svg?branch=master)](https://travis-ci.com/ClojureBridge/clojurebridge.github.io)
+
 # ClojureBridge Website
 
 Welcome! This is the repository for the [clojurebridge.org](http://www.clojurebridge.org/) website.
