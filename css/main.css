@@ -24,15 +24,21 @@ body {
   overflow: auto;
 }
 
-#home {
-  float: left;
-  margin: 12px 0 12px 15px;
-  display: block;
-  width: 120px;
-  height: 120px;
-  background: url(../assets/images/logo-small.png);
-  line-height: 999;
-  overflow: hidden;
+@media screen and (min-width: 800px) {
+  .logo {
+    float: left;
+    margin: 12px 0 12px 15px;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../assets/images/logo.png);
+    line-height: 999;
+    overflow: hidden;
+  }
+
+  #menu-button {
+    visibility: hidden;
+  }
 }
 
 #site-nav {
@@ -192,5 +198,80 @@ img {
   #paypal-button {
     text-align: right;
     margin-bottom: -2.0em;
+  }
+}
+
+@media screen and (max-width: 799px) {
+
+  .mobile-dropdown {
+    height: 380px;
+    border-bottom: solid black 5px !important;
+  }
+
+  .mobile-dropdown #site-nav {
+    line-height: 0.9;
+    position: inherit;
+    left: inherit;
+  }
+
+  .mobile-dropdown #site-nav {
+    float: none;
+    padding-left: 10px;
+  }
+
+  .mobile-dropdown #site-nav li {
+    float: none;
+  }
+
+  .mobile-dropdown #site-nav li span {
+    display: inline;
+    font: 16px/1.4 "freight-sans-pro" , "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .mobile-dropdown #site-nav li:hover {
+    background-color: transparent;
+  }
+
+  .mobile-dropdown #site-nav li + li {
+    border-left: none;
+  }
+
+  .logo {
+    background: url(../assets/images/logo-small.png);
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 10px 0px 10px 20px;
+    background-repeat: no-repeat;
+  }
+
+  #site-nav {
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    left: -999px;
+  }
+
+  .header-content {
+    overflow: inherit;
+    border-style: none;
+  }
+
+  #menu-button {
+    float: left;
+    position: absolute;
+    right: 2%;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #33343e;
+    border-radius: 4px;
+  }
+
+  .menu-burger {
+    padding-left: 5px;
+    padding-top: 5px;
   }
 }
