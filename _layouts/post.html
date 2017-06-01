@@ -1,16 +1,64 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     <div class="content-wrapper">
-      <div class="content">
-        <header class="post-header">
-          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-          <p> {{page.workshop_dates}}</p>
-        </header>
-        {{ content }}
+      <div class="content content-0">
+        <div class="content-1">
+          <div class="content-inner">
+            <h1 class="post-title">ClojureBridge {{ page.city }}</h1>
+            <p class="location">{{ page.city }}, {{ page.country }}</p>
+            <p class="dates"><i class="fa fa-calendar"></i> {{ page.workshop_dates }}</p>
+            {{ content }}
+          </div>
+        </div>
+        <div class="content-2">
+          <div class="content-inner">
+            <img alt="{{ page.city }} map" src="https://maps.googleapis.com/maps/api/staticmap?size=450x300&amp;zoom=16&amp;markers={{ page.latitude }}%2C{{ page.longitude }}&amp;key=AIzaSyBHlZkrV89gVAL1z9Wy95LkBiS27UsAv3g">
+            <h3>Location</h3>
+            <p>{{ page.street }}, {{ page.city }}, {{ page.country }}</p>
+            <div class="organizers">
+              <h3>Organizer{% if page.organizers.names.size > 1 %}s{% endif %}</h3>
+              <p>
+                We are grateful for the involvement of
+                {{ page.organizers.names | join: ' and ' }},
+                who will host this workshop, and will answer any
+                questions you might have before or during the workshop.
+              </p>
+              <p class="social-media">
+                Find {{ page.organizers.names | join: ' and ' }}
+                on social media:
+              </p>
+              <ul>
+              {% for account in page.accounts %}
+                {% if account.service == 'github' %}
+                <li>
+                  <i class="fa fa-github"></i>
+                  <a href="https://github.com/{{ account.username }}">{{ account.username }}</a>
+                </li>
+                {% elsif account.service == 'twitter' %}
+                <li>
+                  <i class="fa fa-twitter"></i>
+                  <a href="https://twitter.com/{{ account.username }}">{{ account.username }}</a>
+                </li>
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+            <div class="sponsors">
+              <p>A huge thank you to our sponsors:</p>
+              <ul>
+              {% for sponsor in page.sponsors %}
+                <li>
+                  <a href="{{ sponsor.url }}"><img alt="{{ sponsor.name }}" src="{{ sponsor.image }}"></a>
+                </li>
+              {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
