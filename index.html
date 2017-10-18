@@ -27,10 +27,10 @@ layout: default
       <ul id="events-list">
       {% for post in upcoming_events reversed %}
         <li>
-          <div class="background-image city" style="background-image: url({{ post.city_image_url }})"></div>
+          <div class="background-image city" style="background-image: url({{ post.city-image-url }})"></div>
           <div class="background-image organizer" style="background-image: url(https://www.gravatar.com/avatar/{{ post.organizers.email | strip | downcase | md5 }}?s=200)"></div>
           <h3><a class="post-link" href="{{ post.url }}">{{ post.city }}</a></h3>
-          <p>{{ post.workshop_dates }}</li>
+          <p>{{ post.workshop-dates }}</li>
         </li>
       {% endfor %}
       </ul>

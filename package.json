@@ -1,0 +1,8 @@
+{
+  "name": "clojurebridge.github.io",
+  "private": true,
+  "devDependencies": {
+    "js-yaml": "3.10.x",
+    "lumo-cljs": "1.7.x"
+  }
+}
