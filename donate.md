@@ -7,7 +7,7 @@ permalink: /donate/
 ![ClojureBridge attendees](../assets/images/header-donate.jpg)
 
 <div id="paypal-button">
-  <a class="button-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3L8RHEQS3QHPA">Donate with <img alt="PayPal" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png">
+  <a class="button-donate" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=ZMZ6KBJVU23LS">Donate with <img alt="PayPal" src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png">
   </a>
 </div>
 
@@ -32,6 +32,10 @@ ClojureBridge is seeking monetary support to enable additional workshops by expe
 In particular, our geographic expansion has increased the need for funds in locations where Clojure is less well-known by local businesses and developer communities. Sponsorship would allow ClojureBridge to alleviate the fundraising burden for organizers in these areas, who have already committed to recruiting volunteers, supporting students, reviewing teaching materials, and securing workshop venues.
 
 Sponsorship would also improve accessibility, providing free food, drinks, supplies, and childcare for students and volunteers during the weekend of the workshop.
+
+## Who processes the donation?
+
+All donations are provided to [Bridge Foundry, Inc.](https://bridgefoundry.org) as unrestricted funds.  This is an important accounting distinction and allows the group to spend funds to support our mission.  We will do our best to create activities with volunteers in our area that honor your donation, and appreciate that you are willing to support our mission: to transform tech culture, by generating leaders, teachers and mentors who empower the underserved.
 
 ## How can I help?
 
