@@ -16,25 +16,28 @@ layout: default
   <div id="events" class="content-wrapper">
     <div class="content">
 
-      <h2>
-        Upcoming Events
-      </h2>
+      <h2>Upcoming Events</h2>
 
     {% assign upcoming_events = site.posts | where_exp: 'post', 'post.date >= site.time' %}
     {% if upcoming_events.size == 0 %}
       <p>There are no upcoming workshops.</p>
     {% else %}
-      <ul id="events-list">
-      {% for post in upcoming_events reversed %}
-        <li>
-          <div class="background-image city" style="background-image: url({{ post.city-image-url }})"></div>
-          <div class="background-image organizer" style="background-image: url(https://www.gravatar.com/avatar/{{ post.organizers.email | strip | downcase | md5 }}?s=200)"></div>
-          <h3><a class="post-link" href="{{ post.url }}">{{ post.city }}</a></h3>
-          <p>{{ post.workshop-dates }}</li>
-        </li>
+      <ul class="events-list">
+      {% for event in upcoming_events %}
+        {% include event.html %}
       {% endfor %}
       </ul>
     {% endif %}
+
+      <h2>Previous Events</h2>
+
+      <ul class="events-list">
+    {% for event in site.posts %}
+      {% if site.time > event.date %}
+        {% include event.html %}
+      {% endif %}
+    {% endfor %}
+      </ul>
 
     </div>
   </div>

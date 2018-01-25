@@ -1,0 +1,6 @@
+<li>
+  <div class="background-image city" style="background-image: url({{ event.city-image-url }})"></div>
+  <div class="background-image organizer" style="background-image: url(https://www.gravatar.com/avatar/{{ event.gravatar-email | strip | downcase | md5 }}?s=64&amp;d=https%3A%2F%2Fraw.githubusercontent.com%2FClojureBridge%2Fclojurebridge.github.io%2F9406ba5dd1b871b9508a893a501c7a29ba6fa92c%2Fassets%2Fimages%2Flogo.png)"></div>
+  <h3><a class="post-link" href="{{ event.url }}">{{ event.city }}</a></h3>
+  {% include event-dates.html %}
+</li>

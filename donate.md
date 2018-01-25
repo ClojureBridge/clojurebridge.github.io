@@ -43,7 +43,7 @@ If you are interested in donating your time and skills to ClojureBridge, includi
 
 If you're interested in a financial donation: fantastic! As ClojureBridge workshops do not charge tuition to students, we seek monetary and in-kind donations to cover their costs. By sponsoring ClojureBridge, you are publicly demonstrating to current and future software developers that your organization values diversity, openness, and excellence.
 
-We accept contributions through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3L8RHEQS3QHPA) and can also provide [tax-deductible invoicing](https://docs.google.com/forms/d/1gu6WG2Nifj_579VhML_KZWpvi0bM0YpqsgZptSmU6Lw/viewform). ClojureBridge is part of Bridge Foundry. Bridge Foundry is part of School Factory, a non-profit 501(c)(3) organization.
+We accept contributions through [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZMZ6KBJVU23LS) and can also provide [tax-deductible invoicing](https://docs.google.com/forms/d/1gu6WG2Nifj_579VhML_KZWpvi0bM0YpqsgZptSmU6Lw/viewform). ClojureBridge is part of Bridge Foundry. Bridge Foundry is part of School Factory, a non-profit 501(c)(3) organization.
 
 **Thanks!**
 
