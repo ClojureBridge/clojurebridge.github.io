@@ -32,7 +32,7 @@ body {
     display: block;
     width: 120px;
     height: 120px;
-    background: url(../assets/images/logo.png);
+    background: url(../assets/images/logo-120px.png);
     line-height: 999;
     overflow: hidden;
   }
@@ -340,7 +340,7 @@ h3 {
   }
 
   .logo {
-    background: url(../assets/images/logo-small.png);
+    background: url(../assets/images/logo-33px.png);
     display: block;
     width: 35px;
     height: 35px;
