@@ -6,8 +6,8 @@ street:         Klarna AB Sveavägen 46
 latitude:       59.3371711
 longitude:      18.0623905
 date:           2018-05-05 18:00:00 +0200
-workshop_dates: 5–6 May 2018
-city_image_url: https://upload.wikimedia.org/wikipedia/commons/8/88/Stockholm_Port.jpg
+workshop-dates: 5–6 May 2018
+city-image-url: https://upload.wikimedia.org/wikipedia/commons/8/88/Stockholm_Port.jpg
 organizers:
   email:        ClojureBridgeSE@gmail.com
   names:        ["Mariana Bocoi", "Josh Glover"]
