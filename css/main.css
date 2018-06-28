@@ -107,46 +107,45 @@ body {
   padding-bottom: 1.5em;
 }
 
-#events-list {
+.events-list {
+  margin: -15px -15px 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
 }
 
-#events-list li {
+.events-list li {
   float: left;
-  width: 247px;
+  margin: 15px;
+  width: 300px;
   padding: 0 0 2em;
   background: #e9e9e9;
   text-align: center;
 }
 
-#events-list li + li {
-  margin-left: 30px;
-}
-
-#events-list h3 {
+.events-list h3 {
   margin-top: 0.2em;
   font-weight: normal;
   font-size: 1.5em;
 }
 
-#events-list p {
+.events-list p {
   margin: 0;
   color: #797b91;
 }
 
-#events-list .city {
-  width: 247px;
-  height: 247px;
+.events-list .city {
+  width: 300px;
+  height: 300px;
 }
 
-#events-list .organizer {
+.events-list .organizer {
   margin: -40px auto 0;
   display: block;
-  width: 57px;
-  height: 57px;
+  width: 64px;
+  height: 64px;
   border: 4px solid #fff;
+  background-color: #fff;
   -webkit-box-shadow: 0 0 5px #666;
   -moz-box-shadow: 0 0 5px #666;
   box-shadow: 0 0 5px #666;
@@ -184,6 +183,31 @@ img {
 
 .fa span {
   display: none;
+}
+
+.registration {
+  margin: 2em 0;
+}
+
+.button-register {
+  position: relative;
+  border: 1px solid #45533d;
+  background-color: #5d7152;
+  padding: 0.8125em 1.5em 0.75em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-register:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  content: "";
 }
 
 .button-donate {

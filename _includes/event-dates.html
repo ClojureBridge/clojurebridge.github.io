@@ -1,0 +1,15 @@
+{% capture start-date  %}{{ event.start-date | date: '%e' | strip }}{% endcapture %}
+{% capture   end-date  %}{{ event.end-date   | date: '%e' | strip }}{% endcapture %}
+{% capture start-month %}{{ event.start-date | date: '%B'         }}{% endcapture %}
+{% capture   end-month %}{{ event.end-date   | date: '%B'         }}{% endcapture %}
+{% capture start-year  %}{{ event.start-date | date: '%Y'         }}{% endcapture %}
+{% capture   end-year  %}{{ event.end-date   | date: '%Y'         }}{% endcapture %}
+{% if start-year != end-year %}
+  {{ start-date }} {{ start-month }} {{ start-year }} &ndash; {{ end-date }} {{ end-month }} {{ end-year }}
+{% elsif start-month != end-month %}
+  {{ start-date }} {{ start-month }} &ndash; {{ end-date }} {{ end-month }} {{ end-year }}
+{% elsif start-date != end-date %}
+  {{ start-date }}&ndash;{{ end-date }} {{ end-month }} {{ end-year }}
+{% else %}
+  {{ end-date }} {{ end-month }} {{ end-year }}
+{% endif %}

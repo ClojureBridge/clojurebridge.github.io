@@ -5,37 +5,41 @@
 (def js-yaml (nodejs/require "js-yaml"))
 
 
-(s/def ::url (s/and string? #(not= "" %)))
-(s/def ::email (s/and string? #(.includes % "@")))
+(s/def ::url (s/nilable (s/and string? #(not= "" %))))
+(s/def ::email (fn [x] (or (nil? x) (and (string? x) (.includes x "@")))))
+(s/def ::github (s/nilable string?))
 (s/def ::image ::url)
-(s/def ::names (s/coll-of string?))
-(s/def ::service string?)
-(s/def ::username string?)
+(s/def ::name (s/and string? #(not= "" %)))
+(s/def ::twitter (s/nilable string?))
 
 (s/def ::layout #(= "post" %))
+(s/def ::permalink string?)
 (s/def ::country string?)
 (s/def ::city string?)
-(s/def ::street string?)
-(s/def ::latitude (s/double-in :min -90.0 :max 90.0))
-(s/def ::longitude (s/double-in :min -180.0 :max 180.0))
-(s/def ::date (s/and string? #(re-matches #"\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d [+-]\d\d\d\d" %)))
-(s/def ::workshop-dates string?)
+(s/def ::street (s/nilable string?))
+(s/def ::latitude (s/nilable (s/double-in :min -90.0 :max 90.0)))
+(s/def ::longitude (s/nilable (s/double-in :min -180.0 :max 180.0)))
+(s/def ::start-date #(instance? js/Date %))
+(s/def ::end-date #(instance? js/Date %))
+(s/def ::registration-url (s/nilable ::url))
 (s/def ::city-image-url ::url)
-(s/def ::organizers (s/keys :req-un [::email ::names]))
-(s/def ::accounts (s/coll-of (s/keys :req-un [::service ::username])))
+(s/def ::gravatar-email ::email)
+(s/def ::organizers (s/coll-of (s/keys :req-un [::name ::email ::github ::twitter])))
 (s/def ::sponsors (s/coll-of (s/keys :req-un [::name ::url ::image])))
 
 (s/def ::workshop-metadata (s/keys :req-un [::layout
+                                            ::permalink
                                             ::country
                                             ::city
                                             ::street
                                             ::latitude
                                             ::longitude
-                                            ::date
-                                            ::workshop-dates
+                                            ::start-date
+                                            ::end-date
+                                            ::registration-url
                                             ::city-image-url
+                                            ::gravatar-email
                                             ::organizers
-                                            ::accounts
                                             ::sponsors]))
 
 (defn validate [k o]
