@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euf -o pipefail
+
+git remote --verbose
+git branch --list
