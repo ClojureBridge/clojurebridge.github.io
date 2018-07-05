@@ -22,3 +22,5 @@ future: true
 
 # Site builder settings
 exclude: [ Gemfile, Gemfile.lock, node_modules, vendor ]
+
+timezone: UTC
