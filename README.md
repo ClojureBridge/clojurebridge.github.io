@@ -10,7 +10,7 @@ You can either create and modify files here on GitHub or clone the repository an
 
 The website is powered by [Jekyll](https://jekyllrb.com/), GitHub pages and Markdown. Jekyll is a Ruby gem that lets you create simple blogs that are easy to maintain.
 
-You might have to install a new version of Ruby, if you don't have it yet.
+You might have to [install a new version of Ruby](https://www.ruby-lang.org/en/documentation/installation/), if you don't have it yet.
 After that you can run the following command in the Terminal:
 ```
 gem install jekyll
