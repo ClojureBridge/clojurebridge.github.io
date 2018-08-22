@@ -9,7 +9,7 @@ longitude:          -72.6381861
 start-date:         2017-04-28
 end-date:           2017-04-29
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/northampton-ma.png
+city-image-url:     assets/images/events/northampton-ma.png
 gravatar-email:     clojurebridgewmass@gmail.com
 organizers:         [{"email": "clojurebridgewmass@gmail.com", "github": "silvanasaca", "name": "Silvana Saca", "twitter": null}]
 sponsors:           [{"image": null, "name": "Google", "url": null}, {"image": null, "name": "Hampshire College", "url": null}, {"image": null, "name": "Smith College", "url": null}]

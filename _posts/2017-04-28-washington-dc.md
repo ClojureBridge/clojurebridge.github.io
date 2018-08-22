@@ -9,7 +9,7 @@ longitude:          -77.1171146
 start-date:         2017-04-28
 end-date:           2017-04-29
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/washington-dc.jpg
+city-image-url:     assets/images/events/washington-dc.jpg
 gravatar-email:     gearon@gmail.com
 organizers:         [{"email": "gearon@gmail.com", "github": "quoll", "name": "Paula Gearon", "twitter": "quoll"}, {"email": null, "github": null, "name": "Women Who Code DC", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/209/blackstoneLogo.png?1491864263", "name": "Blackstone Technology Group", "url": "https://www.bstonetech.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/210/SparkFund_Logo_w-sub-title.png?1491920193", "name": "SparkFund", "url": "https://www.sparkfund.co/"}]

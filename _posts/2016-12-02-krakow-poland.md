@@ -9,7 +9,7 @@ longitude:          19.9600163
 start-date:         2016-12-02
 end-date:           2016-12-03
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/kraków-poland.jpg
+city-image-url:     assets/images/events/kraków-poland.jpg
 gravatar-email:     kasia@mailbox.org
 organizers:         [{"email": "kasia@mailbox.org", "github": "idengager", "name": "Kasia Jarmołkowicz", "twitter": "_idengager"}, {"email": null, "github": "misiaak", "name": "Dominika Kucharska", "twitter": null}]
 sponsors:           []

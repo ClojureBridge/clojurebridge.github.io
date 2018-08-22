@@ -9,7 +9,7 @@ longitude:          -77.212138
 start-date:         2017-06-16
 end-date:           2017-06-17
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/washington-dc.jpg
+city-image-url:     assets/images/events/washington-dc.jpg
 gravatar-email:     bansari.desai@capitalone.com
 organizers:         [{"email": "bansari.desai@capitalone.com", "github": "bansd", "name": "Bansari Desai", "twitter": null}, {"email": "bhavani.vegesna@capitalone.com", "github": null, "name": "Bhavani Vegesna", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/213/d2336ae6-415b-11e7-882e-a0d9065e424e.png?1496369653", "name": "CapitalOne", "url": "https://www.capitalone.com/"}]

@@ -9,7 +9,7 @@ longitude:          18.0623905
 start-date:         2017-05-05
 end-date:           2017-05-06
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/stockholm-sweden.png
+city-image-url:     assets/images/events/stockholm-sweden.png
 gravatar-email:     ClojureBridgeSE@gmail.com
 organizers:         [{"email": "ClojureBridgeSE@gmail.com", "github": "ClojureBridgeSE", "name": "Mariana Bocoi and Josh Glover", "twitter": "ClojureBridgeSE"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/197/klarna-blue-black.png?1488765101", "name": "Klarna AB", "url": "https://lifeatklarna.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/211/lambda-island.png?1493768148", "name": "Lambda Island", "url": "https://lambdaisland.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/198/95571868-0513-11e7-80b1-f62efc8b6793.png?1489095657", "name": "PurelyFunctional.tv", "url": "https://purelyfunctional.tv/"}]

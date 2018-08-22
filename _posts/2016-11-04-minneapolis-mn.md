@@ -9,7 +9,7 @@ longitude:          -93.2460588
 start-date:         2016-11-04
 end-date:           2016-11-05
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/minneapolis.jpg
+city-image-url:     assets/images/events/minneapolis.jpg
 gravatar-email:     walsh.millicent@gmail.com
 organizers:         [{"email": "walsh.millicent@gmail.com", "github": "mhwalsh", "name": "Millicent Walsh", "twitter": "mh_walsh"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/160/puredanger.jpg?1475155388", "name": "Alex Miller", "url": "http://tech.puredanger.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/168/cognitect.jpg?1476897257", "name": "Cognitect, Inc.", "url": "http://cognitect.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/169/gitlab_(1).png?1476897306", "name": "GitLab", "url": "https://gitlab.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/161/lambdaisland.png?1475155529", "name": "Lambda Island", "url": "https://lambdaisland.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/157/MRiPrI0x_400x400.png?1475155022", "name": "Object Partners", "url": "https://objectpartners.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/158/pftv-logo.png?1475155809", "name": "PurelyFunctional.tv", "url": "https://purelyfunctional.tv/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/159/mobile-logo-367.png?1475155941", "name": "World Singles", "url": "http://worldsingles.com/"}]

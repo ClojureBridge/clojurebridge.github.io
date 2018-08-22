@@ -9,7 +9,7 @@ longitude:          24.9459469
 start-date:         2017-01-28
 end-date:           2017-01-28
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/helsinki-finland.jpg
+city-image-url:     assets/images/events/helsinki-finland.jpg
 gravatar-email:     clojurebridge.helsinki@gmail.com
 organizers:         [{"email": "clojurebridge.helsinki@gmail.com", "github": "clojurebridge-helsinki", "name": "ClojureBridge Finland", "twitter": "ClojureBridgeFI"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/180/gofore-logo_(1).png?1484061229", "name": "Gofore Oy", "url": "https://gofore.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/179/metosin.jpeg?1484061190", "name": "Metosin", "url": "http://www.metosin.fi/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/181/nitor-logo.jpeg?1484061269", "name": "Nitor Oy", "url": "https://www.nitor.fi/fi"}]

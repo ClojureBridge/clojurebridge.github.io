@@ -9,7 +9,7 @@ longitude:          -93.2322351
 start-date:         2015-03-06
 end-date:           2015-03-07
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/minneapolis.jpg
+city-image-url:     assets/images/events/minneapolis.jpg
 gravatar-email:     antoinette@clojurebridgemn.org
 organizers:         [{"email": "antoinette@clojurebridgemn.org", "github": "antauth", "name": "Antoinette Smith", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/28/standard_adobe_logo_-_2-color_red_and_black.png?1424746980", "name": "Adobe", "url": "http://www.adobe.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/20/Thrivent.png?1423923050", "name": "Thrivent Financial", "url": "https://www.thrivent.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/21/umseclogo.jpg?1423923397", "name": "University of Minnesota Software Engineering Center", "url": "http://www.umsec.umn.edu/"}]

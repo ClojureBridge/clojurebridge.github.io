@@ -9,7 +9,7 @@ longitude:          144.9638476
 start-date:         2017-09-22
 end-date:           2017-09-23
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/melbourne-australia.jpg
+city-image-url:     assets/images/events/melbourne-australia.jpg
 gravatar-email:     vampwillow@gmail.com
 organizers:         [{"email": "vampwillow@gmail.com", "github": "andeemarks", "name": "Andy Marks", "twitter": "andee_marks"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/218/thoughtworks-logo.png?1504791845", "name": "ThoughtWorks", "url": "http://www.thoughtworks.com/"}]

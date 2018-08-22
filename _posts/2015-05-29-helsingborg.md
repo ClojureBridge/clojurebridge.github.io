@@ -9,7 +9,7 @@ longitude:          12.698802
 start-date:         2015-05-29
 end-date:           2015-05-30
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/helsingborg.jpg
+city-image-url:     assets/images/events/helsingborg.jpg
 gravatar-email:     ulrik.sandberg@gmail.com
 organizers:         [{"email": "ulrik.sandberg@gmail.com", "github": null, "name": "Ulrik Sandberg", "twitter": "ClojureBridgeOS"}]
 sponsors:           []

@@ -9,7 +9,7 @@ longitude:          -74.0071476
 start-date:         2017-06-02
 end-date:           2017-06-04
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/new-york-ny.png
+city-image-url:     assets/images/events/new-york-ny.png
 gravatar-email:     rpl@lispnyc.org
 organizers:         [{"email": "rpl@lispnyc.org", "github": "delaray", "name": "Pierre de Lacaze", "twitter": null}, {"email": "heow@lispnyc.org", "github": "heow", "name": "Heow Goodman", "twitter": null}, {"email": null, "github": null, "name": "Yulia Shea", "twitter": null}, {"email": null, "github": null, "name": "Evan Misshula", "twitter": null}, {"email": null, "github": null, "name": "D Schmüdde", "twitter": null}, {"email": null, "github": null, "name": "Stuart Sierra", "twitter": null}, {"email": "david@shareablee.com", "github": null, "name": "David Bachowski", "twitter": null}, {"email": "gloria@shareablee.com", "github": null, "name": "Gloria Stitt", "twitter": null}, {"email": "kat@shareablee.com", "github": null, "name": "Katherine Appelian", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/204/lispnyc-logo-light.gif?1490715641", "name": "Lisp NYC", "url": "clojurebridge.lispnyc.org"}]

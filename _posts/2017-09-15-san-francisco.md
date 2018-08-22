@@ -9,7 +9,7 @@ longitude:          -122.3919665
 start-date:         2017-09-15
 end-date:           2017-09-16
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/san-francisco.jpg
+city-image-url:     assets/images/events/san-francisco.jpg
 gravatar-email:     hannah@circleci.com
 organizers:         [{"email": "hannah@circleci.com", "github": "hannahhenderson", "name": "Hannah Henderson", "twitter": "hendersgame"}, {"email": "an@circleci.com", "github": "annguy3n", "name": "An Nguyen", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/214/687474703a2f2f626c6f672e636972636c6563692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f31312f6c6f676f2e706e67.png?1501587702", "name": "CircleCI", "url": "https://circleci.com/"}]

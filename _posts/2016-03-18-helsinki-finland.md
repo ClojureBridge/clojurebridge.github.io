@@ -9,7 +9,7 @@ longitude:          24.9319456
 start-date:         2016-03-18
 end-date:           2016-03-19
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/helsinki-finland.jpg
+city-image-url:     assets/images/events/helsinki-finland.jpg
 gravatar-email:     clojurebridge.helsinki@gmail.com
 organizers:         [{"email": "clojurebridge.helsinki@gmail.com", "github": null, "name": "Anne-Mari Silvast", "twitter": "AnskuSilvast"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/101/bitodi_logo.png?1455851224", "name": "Bitodi Oy", "url": "https://www.bitodi.fi/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/98/gofore_logo_black_rgb.png?1455850989", "name": "Gofore Oy ", "url": "https://gofore.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/99/musta_vaaka_(1).png?1455851724", "name": "Metosin Oy", "url": "http://www.metosin.fi/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/100/solita_logo.png?1455851178", "name": "Solita Oy", "url": "http://www.solita.fi/"}]

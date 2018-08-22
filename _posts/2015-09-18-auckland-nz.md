@@ -9,7 +9,7 @@ longitude:          174.7628486
 start-date:         2015-09-18
 end-date:           2015-09-19
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/auckland-nz.jpg
+city-image-url:     assets/images/events/auckland-nz.jpg
 gravatar-email:     maria.geller2@gmail.com
 organizers:         [{"email": "maria.geller2@gmail.com", "github": "MNeise", "name": "Maria Geller", "twitter": "maria__geller"}, {"email": "desk@danielcompton.net", "github": "danielcompton", "name": "Daniel Compton", "twitter": "danielwithmusic"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/42/GitHub.png?1431523668", "name": "GitHub", "url": "http://github.com"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/6/LispCast.png?1411430851", "name": "LispCast", "url": "http://www.purelyfunctional.tv/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/67/liveops.png?1442795876", "name": "LiveOps", "url": "http://www.liveops.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/54/movio.png?1439841695", "name": "Movio", "url": "http://movio.co/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/60/smx.png?1441327794", "name": "SMX Email", "url": "https://smxemail.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/61/uber.png?1441327821", "name": "Uber", "url": "https://www.uber.com/"}]

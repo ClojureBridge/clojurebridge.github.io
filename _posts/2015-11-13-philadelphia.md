@@ -9,7 +9,7 @@ longitude:          -75.160713
 start-date:         2015-11-13
 end-date:           2015-11-14
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/default.jpg
+city-image-url:     assets/images/events/default.jpg
 gravatar-email:     indigojump@gmail.com
 organizers:         [{"email": "indigojump@gmail.com", "github": "indigojump", "name": "Alexandra Smith", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/74/650401a2-77d5-11e5-932f-4ef5702b1f52.png?1445619120", "name": "PromptWorks", "url": "https://www.promptworks.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/76/d8d6dad8-77d4-11e5-9f31-c85fd430c750.png?1445619188", "name": "RJMetrics", "url": "https://rjmetrics.com"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/75/e1da3e9a-77d4-11e5-975b-6d44a3974ab6.jpg?1445619154", "name": "SunGard", "url": "http://www.sungard.com/"}]

@@ -9,7 +9,7 @@ longitude:          144.9644615
 start-date:         2014-08-15
 end-date:           2014-08-16
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/melbourne-australia.jpg
+city-image-url:     assets/images/events/melbourne-australia.jpg
 gravatar-email:     jensmith@thoughtworks.com
 organizers:         [{"email": "jensmith@thoughtworks.com", "github": "jennifersmith", "name": "Jennifer Smith", "twitter": "jennifersmithco"}]
 sponsors:           []

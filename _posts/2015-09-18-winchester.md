@@ -9,7 +9,7 @@ longitude:          -84.1761286
 start-date:         2015-09-18
 end-date:           2015-09-19
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/kentucky.png
+city-image-url:     assets/images/events/kentucky.png
 gravatar-email:     aaarnett@gmail.com
 organizers:         [{"email": "aaarnett@gmail.com", "github": "tripaces", "name": "Aaron Arnett", "twitter": "aaarnett"}, {"email": null, "github": null, "name": "Janine Hempy", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/64/74ab5e10-5b2f-11e5-8f1e-a66eb85f311c.png?1442419587", "name": "CIRRUSMIO", "url": "http://cirrusmio.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/56/leeds.png?1441037619", "name": "Leeds Center for the Arts", "url": "http://leedscenter.org"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/63/LispCast.png?1441817440", "name": "LispCast", "url": "http://www.purelyfunctional.tv/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/55/main_street_winchester.png?1441037652", "name": "Main Street Winchester", "url": null}]
