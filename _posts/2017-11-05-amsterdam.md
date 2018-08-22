@@ -9,7 +9,7 @@ longitude:          4.9299258
 start-date:         2017-11-05
 end-date:           2017-11-05
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/amsterdam.jpg
+city-image-url:     assets/images/events/amsterdam.jpg
 gravatar-email:     neha.agarwal.d@gmail.com
 organizers:         [{"email": "neha.agarwal.d@gmail.com", "github": "clojurebridge-amsterdam", "name": "Neha Agarwal", "twitter": "ClojureBridgeNL"}, {"email": "aspasia.beneti@gmail.com", "github": null, "name": "Aspasia Neneti", "twitter": null}, {"email": "michiel@trimpe.nl", "github": null, "name": "Michiel Trimpe", "twitter": null}]
 sponsors:           []

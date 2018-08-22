@@ -9,7 +9,7 @@ longitude:          -122.3999516
 start-date:         2014-05-02
 end-date:           2014-05-03
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/san-francisco.jpg
+city-image-url:     assets/images/events/san-francisco.jpg
 gravatar-email:     seancorfield@gmail.com
 organizers:         [{"email": "seancorfield@gmail.com", "github": "seancorfield", "name": "Sean A Corfield", "twitter": "seancorfield"}]
 sponsors:           [{"image": null, "name": "Outpace", "url": null}, {"image": null, "name": "The Climate Corporation", "url": null}, {"image": null, "name": "Zillow", "url": null}]

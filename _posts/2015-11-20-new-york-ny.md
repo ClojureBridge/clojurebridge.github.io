@@ -9,7 +9,7 @@ longitude:          -74.0077919
 start-date:         2015-11-20
 end-date:           2015-11-21
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/new-york-ny.png
+city-image-url:     assets/images/events/new-york-ny.png
 gravatar-email:     kalavox@gmail.com
 organizers:         [{"email": "kalavox@gmail.com", "github": "den1k", "name": "Dennis Heihoff", "twitter": "denik"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/78/b105bce0-7a7c-11e5-82b8-caa72c2cf030.png?1445745385", "name": "Intent Media", "url": "http://intentmedia.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/77/b6ee46c2-7a7c-11e5-9846-2a4ef9fefe8f.png?1445745342", "name": "Shareablee", "url": "http://www.shareablee.com/"}]

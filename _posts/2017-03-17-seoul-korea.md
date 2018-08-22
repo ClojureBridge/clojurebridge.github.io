@@ -9,7 +9,7 @@ longitude:          126.9647214
 start-date:         2017-03-18
 end-date:           2017-03-18
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/seoul-korea.png
+city-image-url:     assets/images/events/seoul-korea.png
 gravatar-email:     dalzony@gmail.com
 organizers:         [{"email": "dalzony@gmail.com", "github": "dalzony", "name": "Minsun Lee", "twitter": "dalzony"}]
 sponsors:           [{"image": null, "name": "HomoEfficio", "url": "https://github.com/HomoEfficio"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/201/insight_logosmall.jpg?1489729247", "name": "insightbook", "url": "http://www.insightbook.co.kr/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/200/kosslab.kr.png?1489729199", "name": "kosslab", "url": "http://kosslab.kr/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/196/sookmyung-ac-kr.png?1488383787", "name": "Sookmyung Women's University", "url": "http://www.sookmyung.ac.kr/"}, {"image": null, "name": "Youndo Kwak", "url": "https://github.com/kwakbab"}]

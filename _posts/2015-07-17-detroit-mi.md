@@ -9,7 +9,7 @@ longitude:          -83.04925
 start-date:         2015-07-17
 end-date:           2015-07-18
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/detroit.png
+city-image-url:     assets/images/events/detroit.png
 gravatar-email:     joshhead@gmail.com
 organizers:         [{"email": "joshhead@gmail.com", "github": null, "name": "Josh Headapohl", "twitter": "detroitclojure"}, {"email": "joshhead+amber@gmail.com", "github": null, "name": "Amber Conville", "twitter": null}, {"email": "joshhead+anne@gmail.com", "github": null, "name": "Anne Cahalan", "twitter": null}, {"email": "joshhead+mel@gmail.com", "github": null, "name": "Mel Klimushyn", "twitter": null}]
 sponsors:           [{"image": null, "name": "Detroit Labs", "url": "http://www.detroitlabs.com/"}]

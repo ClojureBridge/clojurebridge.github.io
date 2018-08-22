@@ -9,7 +9,7 @@ longitude:          -93.2904143
 start-date:         2014-05-16
 end-date:           2014-05-17
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/minneapolis.jpg
+city-image-url:     assets/images/events/minneapolis.jpg
 gravatar-email:     melissa.a.voegeli@gmail.com
 organizers:         [{"email": "melissa.a.voegeli@gmail.com", "github": "MelissaVoegeli", "name": "Melissa Voegeli", "twitter": "MelissaVoegeli"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/2/brickalloy.png?1397841764", "name": "BrickAlloy", "url": "http://brickalloy.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/1/Code42_Logo_Horizontal_Color.png?1397841776", "name": "Code42", "url": "http://www.code42.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/3/DevJam-Studios.png?1397841749", "name": "DevJam Studios", "url": "http://devjamstudios.com/"}]

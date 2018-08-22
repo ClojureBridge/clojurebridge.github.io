@@ -9,7 +9,7 @@ longitude:          -122.6732897
 start-date:         2015-04-17
 end-date:           2015-04-18
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/portland-or.jpg
+city-image-url:     assets/images/events/portland-or.jpg
 gravatar-email:     maxwellmartin@gmail.com
 organizers:         [{"email": "maxwellmartin@gmail.com", "github": "MaxMartin", "name": "Max Martin", "twitter": "MaxMartin"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/32/PL_logo_horizontal_RGB_lg.jpg?1426797992", "name": "Puppet Labs", "url": "https://puppetlabs.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/31/simple-logo.png?1426797606", "name": "Simple", "url": "https://www.simple.com/"}]

@@ -9,7 +9,7 @@ longitude:          -93.2709606
 start-date:         2015-09-11
 end-date:           2015-09-12
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/minneapolis.jpg
+city-image-url:     assets/images/events/minneapolis.jpg
 gravatar-email:     millie@clojurebridgemn.org
 organizers:         [{"email": "millie@clojurebridgemn.org", "github": "mhwalsh", "name": "Millicent Walsh", "twitter": "mh_walsh"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/17/ORM_logo_box75_hex.jpg?1421287502", "name": "O'Reilly", "url": "http://www.oreilly.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/57/df309f18-473c-11e5-8ba9-0c543da31da7.png?1440384363", "name": "Vidku", "url": "http://vidku.com/"}]

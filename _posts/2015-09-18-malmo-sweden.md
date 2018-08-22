@@ -9,7 +9,7 @@ longitude:          13.0034835
 start-date:         2015-09-18
 end-date:           2015-09-19
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/malmo-sweden.jpg
+city-image-url:     assets/images/events/malmo-sweden.jpg
 gravatar-email:     ulrik.sandberg@jayway.com
 organizers:         [{"email": "ulrik.sandberg@jayway.com", "github": null, "name": "Ulrik Sandberg", "twitter": "ulsa"}, {"email": "katarina.hallberg@jayway.com", "github": null, "name": "Katarina Hallberg", "twitter": "ClojureBridgeOS"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/38/jayway_logo.png?1430146682", "name": "Jayway", "url": "http://www.jayway.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/53/LispCast.png?1439841575", "name": "LispCast", "url": "http://www.purelyfunctional.tv/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/58/oreilly.jpg?1440421506", "name": "O'Reilly Media", "url": "http://www.oreilly.com/"}]

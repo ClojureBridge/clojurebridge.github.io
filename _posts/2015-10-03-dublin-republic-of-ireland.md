@@ -9,7 +9,7 @@ longitude:          -6.2576495
 start-date:         2015-10-02
 end-date:           2015-10-03
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/default.jpg
+city-image-url:     assets/images/events/default.jpg
 gravatar-email:     claudia.doppioslash@gmail.com
 organizers:         [{"email": "claudia.doppioslash@gmail.com", "github": "doppioslash", "name": "Claudia Doppioslash", "twitter": "doppioslash"}, {"email": "knoonan@gmail.com", "github": "FreeAgent", "name": "Kevin Noonan", "twitter": "kevin_noonan"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/68/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f696d616765732f3531353433383234303436333939383937372f39704d3369444a392e706e67.png?1442938098", "name": "Aviso Novate", "url": "http://www.aviso.io/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/69/687474703a2f2f626c6f672e636972636c6563692e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f31312f6c6f676f2e706e67.png?1442938143", "name": "CircleCI", "url": "https://circleci.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/70/687474703a2f2f7777772e77686174636c696e69632e636f6d2f696d616765732f66616365626f6f6b5f6c6f676f2e706e67.png?1443373963", "name": "WhatClinic.com", "url": "https://whatclinic.com/"}]

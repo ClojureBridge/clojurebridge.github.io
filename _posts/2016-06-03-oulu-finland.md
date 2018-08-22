@@ -9,7 +9,7 @@ longitude:          25.4683023
 start-date:         2016-06-03
 end-date:           2016-06-04
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/oulu-finland.jpg
+city-image-url:     assets/images/events/oulu-finland.jpg
 gravatar-email:     teemu.kaukoranta@solita.fi
 organizers:         [{"email": "teemu.kaukoranta@solita.fi", "github": null, "name": "Teemu Kaukoranta", "twitter": "teemukaukoranta"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/111/solita_logo_dark.png?1463160379", "name": "Solita", "url": "http://www.solita.fi/"}]

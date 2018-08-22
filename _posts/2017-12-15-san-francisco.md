@@ -9,7 +9,7 @@ longitude:
 start-date:         2017-12-15
 end-date:           2017-12-16
 registration-url:   https://www.eventbrite.com/e/clojurebridge-intro-to-programming-workshop-tickets-38044084882
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/san-francisco.jpg
+city-image-url:     assets/images/events/san-francisco.jpg
 gravatar-email:     hannah@circleci.com
 organizers:         [{"email": "hannah@circleci.com", "github": "hannahhenderson", "name": "Hannah Henderson", "twitter": "hendersgame"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/220/circle-ci-logo-horizontal-grey.jpg?1508851611", "name": "CircleCI", "url": "https://circleci.com/"}]

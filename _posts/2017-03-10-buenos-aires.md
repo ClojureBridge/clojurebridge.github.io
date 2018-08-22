@@ -9,7 +9,7 @@ longitude:          -58.427738
 start-date:         2017-03-10
 end-date:           2017-03-11
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/buenos-aires.jpg
+city-image-url:     assets/images/events/buenos-aires.jpg
 gravatar-email:
 organizers:         [{"email": null, "github": "nberger", "name": "Nicolás Berger", "twitter": "nicoberger"}, {"email": null, "github": "davecaos", "name": "David Cao", "twitter": "davecaos"}, {"email": "clojurebridge@clojureba.com", "github": null, "name": "ClojureBridge Buenos Aires", "twitter": "ClojureBridgeBA"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/184/10pines.png?1484156301", "name": "10pines", "url": "http://www.10pines.com/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/183/radiocut.png?1484156265", "name": "RadioCut.fm", "url": "http://radiocut.fm/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/182/urban_logo.png?1484156231", "name": "Urban Station", "url": "http://enjoyurbanstation.com/"}]

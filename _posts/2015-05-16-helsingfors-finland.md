@@ -9,7 +9,7 @@ longitude:          24.9361138
 start-date:         2015-05-16
 end-date:           2015-05-17
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/helsinki-finland.jpg
+city-image-url:     assets/images/events/helsinki-finland.jpg
 gravatar-email:     annemari.seppola@gmail.com
 organizers:         [{"email": "annemari.seppola@gmail.com", "github": null, "name": "Anne-Mari Seppola", "twitter": "AnskuSeppola"}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/40/metosin.png?1430512865", "name": "Metosin Ltd.", "url": "http://metosin.fi"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/41/solita_logo.png?1431523486", "name": "Solita", "url": "http://www.solita.fi/"}]

@@ -9,7 +9,7 @@ longitude:
 start-date:         2014-09-26
 end-date:           2014-09-27
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/default.jpg
+city-image-url:     assets/images/events/default.jpg
 gravatar-email:     ali@koshatnik.com
 organizers:         [{"email": "ali@koshatnik.com", "github": null, "name": "Ali King", "twitter": "ClojureBridgeEd"}]
 sponsors:           [{"image": null, "name": "GitHub", "url": "https://github.com/"}, {"image": null, "name": "ScotlandIS", "url": null}]

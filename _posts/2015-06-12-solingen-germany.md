@@ -9,7 +9,7 @@ longitude:          7.01088
 start-date:         2015-06-12
 end-date:           2015-06-13
 registration-url:
-city-image-url:     https://github.com/ClojureBridge/clojurebridge.org/raw/master/app/assets/images/events/solingen-germany.jpg
+city-image-url:     assets/images/events/solingen-germany.jpg
 gravatar-email:     falko.riemenschneider@arcor.de
 organizers:         [{"email": "falko.riemenschneider@arcor.de", "github": "friemen", "name": "Falko Riemenschneider", "twitter": null}]
 sponsors:           [{"image": "http://s3.amazonaws.com/clojurebridge/original/26/bevuta_logo.png?1424397776", "name": "bevuta", "url": "http://www.bevuta.com/en/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/25/codecentric_logo.jpg?1424397800", "name": "codecentric", "url": "https://www.codecentric.de/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/27/doctronic_logo.png?1424397765", "name": "doctronic", "url": "http://doctronic.de/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/35/dpunkt.jpg?1428585292", "name": "dpunkt.verlag", "url": "http://www.dpunkt.de/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/24/innoq_logo.png?1424397831", "name": "innoQ", "url": "https://www.innoq.com/en/"}, {"image": "http://s3.amazonaws.com/clojurebridge/original/22/itemis_logo.png?1424397852", "name": "itemis", "url": "http://www.itemis.com"}]
