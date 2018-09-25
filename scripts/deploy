@@ -3,3 +3,16 @@ set -euf -o pipefail
 
 git remote --verbose
 git branch --list
+
+git checkout master
+
+git -c user.name='clojurebridge-machine' \
+    -c user.email='40778920+clojurebridge-machine@users.noreply.github.com' \
+    commit \
+    --allow-empty \
+    --message "$(TZ=UTC date +%Y-%m-%d) update"
+
+git push \
+    --quiet \
+    "https://clojurebridge-machine:$GITHUB_TOKEN@github.com/ClojureBridge/clojurebridge.github.io" \
+    master
