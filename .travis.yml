@@ -16,3 +16,4 @@ deploy:
   script: scripts/deploy
   on:
     branch: master
+    condition: "$(git log --format=%s --max-count=1 master)" != "$(TZ=UTC date +%Y-%m-%d) update"
