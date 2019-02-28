@@ -3,7 +3,7 @@ layout:             post
 permalink:          /events/2019-03-29-bangalore
 country:            India
 city:               Bangalore
-street:             Nilenso Software LLP, #105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038
+street:             Nilenso Software LLP, 105, 10th Cross, Indiranagar Stage 1, Bangalore, India, 560038
 latitude:           12.982054
 longitude:          77.638487
 start-date:         2019-03-29
