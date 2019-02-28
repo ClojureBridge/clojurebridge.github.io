@@ -10,9 +10,3 @@ before_install:
 script:
   - node_modules/.bin/lumo validate-yaml.cljs
   - bundle exec jekyll build
-
-deploy:
-  provider: script
-  script: scripts/deploy
-  on:
-    branch: master
