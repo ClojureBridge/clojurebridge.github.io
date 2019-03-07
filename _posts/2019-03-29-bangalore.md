@@ -12,7 +12,7 @@ registration-url:   https://www.meetup.com/meetup-group-JrOdKOTm/events/25887003
 city-image-url:     assets/images/events/bangalore.jpg
 gravatar-email:
 organizers:         [{"email": "nid@nilenso.com", "name": "Nivedita Priyadarshini", "twitter": "nid90", "github": "nid90"}, {"email": "kitallis@nilenso.com", "name": "Akshay Gupta", "twitter": "kitallis", "github": "kitallis"}]
-sponsors:           [{"image": "assets/images/sponsors/logo-inclojure-white-bg.png", "name": "IN/Clojure", "url": "http://inclojure.org"}, {"image": "assets/images/sponsors/logo-nilenso.png", "name": "nilenso", "url": "https://nilenso.com"}]
+sponsors:           [{"image": "https://raw.githubusercontent.com/ClojureBridge/clojurebridge.github.io/master/assets/images/sponsors/logo-inclojure-white-bg.png", "name": "IN/Clojure", "url": "http://inclojure.org"}, {"image": "https://raw.githubusercontent.com/ClojureBridge/clojurebridge.github.io/master/assets/images/sponsors/logo-nilenso.png", "name": "nilenso", "url": "https://nilenso.com"}]
 ---
 
 ### Description
