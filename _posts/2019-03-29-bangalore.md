@@ -11,9 +11,8 @@ end-date:           2019-03-30
 registration-url:   https://www.meetup.com/meetup-group-JrOdKOTm/events/258870033
 city-image-url:     assets/images/events/bangalore.jpg
 gravatar-email:
-organizers:         [{"email": "nid@nilenso.com", "name": "Nivedita Priyadarshini", "twitter": "kitallis", "github": "kitallis"}]
-sponsors:           [{"image": null, "name": "IN/Clojure", "url": "http://inclojure.org"},
-                     {"image": null, "name": "nilenso", "url": "https://nilenso.com"}]
+organizers:         [{"email": "nid@nilenso.com", "name": "Nivedita Priyadarshini", "twitter": "nid90", "github": "nid90"}, {"email": "kitallis@nilenso.com", "name": "Akshay Gupta", "twitter": "kitallis", "github": "kitallis"}]
+sponsors:           [{"image": "assets/images/sponsors/logo-inclojure-white-bg.png", "name": "IN/Clojure", "url": "http://inclojure.org"}, {"image": "assets/images/sponsors/logo-nilenso.png", "name": "nilenso", "url": "https://nilenso.com"}]
 ---
 
 ### Description
