@@ -21,9 +21,50 @@ layout: default
             {% assign latitude=event.latitude %}
             {% assign longitude=event.longitude %}
             {% assign zoom=16 %}
-            <a href="https://www.google.com/maps/place/{{ latitude }}+{{ longitude }}/@{{ latitude }},{{ longitude }},{{ zoom }}z">
-              <img alt="{{ event.city }} map" src="https://maps.googleapis.com/maps/api/staticmap?size=450x300&amp;zoom={{ zoom }}&amp;markers={{ latitude }}%2C{{ longitude }}&amp;key=AIzaSyBHlZkrV89gVAL1z9Wy95LkBiS27UsAv3g">
-            </a>
+            <div id="map" class="map"></div>
+
+            <script>
+
+              mapboxgl.accessToken = 'pk.eyJ1IjoiY2xvanVyZWJyaWRnZSIsImEiOiJjanhhcWx6MjAwNjZpNDBwYjFndWl5NGkyIn0.4An4DAFMdku7GgcMfN-HPA';
+              var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [ {{longitude}}, {{ latitude}}],
+                zoom: 6
+              });
+
+              var geojson = {
+                "type": "FeatureCollection",
+                "features": [
+                  {
+                    "type": "Feature",
+                    "properties": {
+                      "iconSize": [60, 74]
+                    },
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        {{ longitude }},
+                        {{ latitude }}
+                      ]
+                    }
+                  }]
+              };
+
+              geojson.features.forEach(function(marker) {
+
+                var el = document.createElement('div');
+                el.className = 'marker';
+                el.style.backgroundImage = 'url(/assets/images/marker.png)';
+                el.style.width = marker.properties.iconSize[0] + 'px';
+                el.style.height = marker.properties.iconSize[1] + 'px';
+
+                new mapboxgl.Marker(el)
+                  .setLngLat(marker.geometry.coordinates)
+                  .addTo(map);
+              });
+            </script>
+
           {% endif %}
             <h3>Location</h3>
             <p>{% if event.street %}{{ event.street }}, {% endif %}{{ event.city }}, {{ event.country }}</p>

@@ -25,6 +25,17 @@ body {
   overflow: auto;
 }
 
+.map {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 2em;
+}
+
+.marker {
+  background-size: cover;
+  margin-top: -37px;
+}
+
 @media screen and (min-width: 800px) {
   .logo {
     float: left;
