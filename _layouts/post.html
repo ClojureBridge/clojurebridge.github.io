@@ -17,7 +17,7 @@ layout: default
         </div>
         <div class="content-2">
           <div class="content-inner">
-            {% if event.latitude and event.longitude %}
+          {% if event.latitude and event.longitude %}
             {% assign latitude=event.latitude %}
             {% assign longitude=event.longitude %}
             {% assign zoom=16 %}
@@ -72,58 +72,58 @@ geojson.features.forEach(function(marker) {
 });
             </script>
 
-            {% endif %}
+          {% endif %}
             <h3>Location</h3>
             <p>{% if event.street %}{{ event.street }}, {% endif %}{{ event.city }}, {{ event.country }}</p>
-            {% if event.registration-url and event.date > site.time %}
+          {% if event.registration-url and event.date > site.time %}
             <div class="registration">
               <p><a class="button-register" href="{{ event.registration-url }}">Register Free</a></p>
             </div>
-            {% endif %}
+          {% endif %}
             <div class="organizers">
               <h3>Organizer{% if event.organizers.size > 1 %}s{% endif %}</h3>
               <p>
-              We are grateful for the involvement of
-              {{ event.organizers | map: 'name' | join: ' and ' }},
-              who will host this workshop, and will answer any
-              questions you might have before or during the workshop.
+                We are grateful for the involvement of
+                {{ event.organizers | map: 'name' | join: ' and ' }},
+                who will host this workshop, and will answer any
+                questions you might have before or during the workshop.
               </p>
-              {% for organizer in event.organizers %}
-              {% if organizer.name %}
-              {% if organizer.github or organizer.twitter %}
+        {% for organizer in event.organizers %}
+          {% if organizer.name %}
+            {% if organizer.github or organizer.twitter %}
               <p class="social-media">
-              Find {{ organizer.name }} on social media:
+                Find {{ organizer.name }} on social media:
               </p>
               <ul>
-                {% if organizer.github %}
+              {% if organizer.github %}
                 <li>
                   <i class="fa fa-github"></i>
                   <a href="https://github.com/{{ organizer.github }}">{{ organizer.github }}</a>
                 </li>
-                {% endif %}
-                {% if organizer.twitter %}
+              {% endif %}
+              {% if organizer.twitter %}
                 <li>
                   <i class="fa fa-twitter"></i>
                   <a href="https://twitter.com/{{ organizer.twitter }}">{{ organizer.twitter }}</a>
                 </li>
-                {% endif %}
+              {% endif %}
               </ul>
-              {% endif %}
-              {% endif %}
-              {% endfor %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
             </div>
-            {% if event.sponsors.size > 0 %}
+          {% if event.sponsors.size > 0 %}
             <div class="sponsors">
               <p>A huge thank you to our sponsor{% if event.sponsors.size > 1 %}s{% endif %}:</p>
               <ul>
-                {% for sponsor in event.sponsors %}
+              {% for sponsor in event.sponsors %}
                 <li>
                   <a href="{{ sponsor.url }}"><img alt="{{ sponsor.name }}" src="{{ sponsor.image }}"></a>
                 </li>
-                {% endfor %}
+              {% endfor %}
               </ul>
             </div>
-            {% endif %}
+          {% endif %}
           </div>
         </div>
       </div>
