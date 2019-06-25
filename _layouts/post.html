@@ -21,17 +21,10 @@ layout: default
             {% assign latitude=event.latitude %}
             {% assign longitude=event.longitude %}
             {% assign zoom=16 %}
-            <div id='map' style='width: 400px; height: 300px;'></div>
-            <style>
-              .marker {
-                background-size: cover;
-                margin-top: -37px;
-              }
-            </style>
-
-            <div id='map'></div>
+            <div id="map" class="map"></div>
 
             <script>
+
               mapboxgl.accessToken = 'pk.eyJ1IjoiY2xvanVyZWJyaWRnZSIsImEiOiJjanhhcWx6MjAwNjZpNDBwYjFndWl5NGkyIn0.4An4DAFMdku7GgcMfN-HPA';
               var map = new mapboxgl.Map({
                 container: 'map',
@@ -40,36 +33,36 @@ layout: default
                 zoom: 6
               });
 
-var geojson = {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "iconSize": [60, 74]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          {{ longitude }},
-          {{ latitude }}
-        ]
-      }
-    }]
-};
+              var geojson = {
+                "type": "FeatureCollection",
+                "features": [
+                  {
+                    "type": "Feature",
+                    "properties": {
+                      "iconSize": [60, 74]
+                    },
+                    "geometry": {
+                      "type": "Point",
+                      "coordinates": [
+                        {{ longitude }},
+                        {{ latitude }}
+                      ]
+                    }
+                  }]
+              };
 
-geojson.features.forEach(function(marker) {
+              geojson.features.forEach(function(marker) {
 
-  var el = document.createElement('div');
-  el.className = 'marker';
-  el.style.backgroundImage = 'url(/assets/images/marker.png)';
-  el.style.width = marker.properties.iconSize[0] + 'px';
-  el.style.height = marker.properties.iconSize[1] + 'px';
+                var el = document.createElement('div');
+                el.className = 'marker';
+                el.style.backgroundImage = 'url(/assets/images/marker.png)';
+                el.style.width = marker.properties.iconSize[0] + 'px';
+                el.style.height = marker.properties.iconSize[1] + 'px';
 
-  new mapboxgl.Marker(el)
-    .setLngLat(marker.geometry.coordinates)
-    .addTo(map);
-});
+                new mapboxgl.Marker(el)
+                  .setLngLat(marker.geometry.coordinates)
+                  .addTo(map);
+              });
             </script>
 
           {% endif %}
