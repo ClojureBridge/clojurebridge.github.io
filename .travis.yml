@@ -1,8 +1,7 @@
-dist: trusty
-sudo: false
+dist: xenial
 language: ruby
 rvm:
-  - 2.3.0
+  - 2.5.5
 
 before_install:
   - npm install
