@@ -8,6 +8,7 @@ Ticket title:
 * [ ] Start by copying the [events post template](./github/post_template.md) to the `_post` directory.
 * [ ] Rename the file like `YYYY-MM-dd-LOCATION.md`, e.g. `2019-08-01-berlin.md`
 * [ ] Fill out the details in the template.
+* [ ] Open a PR.
 * [ ] Wait for Travis CI to pass.
 * [ ] Get a review from someone on @ClojureBridge/Board
 * [ ] Merge the PR
