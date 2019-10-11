@@ -4,8 +4,8 @@ permalink:          /events/2019-10-11-bangalore
 country:            India
 city:               Bangalore
 street:             Indiranagar Stage 1
-latitude:           12.981880
-longitude:          77.639005
+latitude:           12.981890
+longitude:          77.638548
 start-date:         2019-10-11
 end-date:           2019-10-12
 registration-url:   https://www.meetup.com/meetup-group-JrOdKOTm/events/264891750
