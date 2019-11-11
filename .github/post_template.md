@@ -1,37 +1,41 @@
 ---
 layout:             post
-permalink:          :x: /events/2019-00-00-LOCATION
-country:            :x: The Netherlands
-city:               :x: Amsterdam
-street:             :x: Waag, Nieuwmarkt 4, 1012 CR Amsterdam
-latitude:           :x: 52.370411
-longitude:          :x: 4.90038
-start-date:         :x: 2019-04-11
-end-date:           :x: 2019-04-11
-registration-url:   :x: https://waag.org/en/event/inclusive-programming-2
-city-image-url:     :x: assets/images/events/amsterdam.jpg
-gravatar-email:     :x: clojurebridge.nl@gmail.com
-organizers:         :x: [{"email": "clojurebridge.nl@gmail.com", "github": "clojurebridgeamsterdam", "name": "ClojureBridge Amsterdam", "twitter": "clojurebridgenl"}, {"email": null, "github": "waagsociety", "name": "Waag", "twitter": "waag"}]
+permalink:          :x: /events/1970-01-01-LOCATION  
+country:            :x: Your Country
+city:               :x: Your City
+street:             :x: Your Street
+latitude:           :x: Latitude (e.g. 52.370411)
+longitude:          :x: Longitude (e.g. 13.404954) 
+start-date:         :x: 1970-01-01
+end-date:           :x: 1970-01-01
+registration-url:   :x: URL for registration
+city-image-url:     :x: assets/images/events/YOUR_EVENT_IMAGE
+gravatar-email:     :x: YOUR contact email
+organizers:         :x: [{"email": "YOUR_EMAIL", "github": "YOUR_GITHUB", "name": "YOUR_NAME", "twitter": "YOUR_TWITTER"}]
 sponsors:           []
 ---
+
+<---- The above ⏫ sections is REQUIRED. Please fill out everything with an :x: ----->
+
+
+<---- The below ⏬ section is optional. Feel free to add or remove to the below field. These are some suggested headers ----->
 
 ### Venue
 
 :x:
-[Waag](https://waag.org/), Nieuwmarkt 4, 1012 CR Amsterdam
 
 ### Description
 
 :x:
 
-#### ClojureBridge
-
-:x:
-
-#### What can you expect?
+#### What can attendees expect?
 
 :x:
 
 #### Programme
 
 :x:
+
+#### Other info
+
+:x: 
