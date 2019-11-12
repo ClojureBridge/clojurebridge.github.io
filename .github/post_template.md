@@ -15,7 +15,7 @@ organizers:         :x: [{"email": "YOUR_EMAIL", "github": "YOUR_GITHUB", "name"
 sponsors:           []
 ---
 
-<---- The above ⏫ sections is REQUIRED. Please fill out everything with an :x: ----->
+<---- The above ⏫ section is REQUIRED. Please fill out everything with an :x: ----->
 
 
 <---- The below ⏬ section is optional. Feel free to add or remove to the below field. These are some suggested headers ----->
