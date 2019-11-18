@@ -1,7 +1,4 @@
-<!--
-Ticket title:
-  New ClojureBridge workshop on {DATE} in {CITY}
--->
+<!-- Ticket title: New ClojureBridge workshop on {DATE} in {CITY} -->
 
 ## Adding a new event to the website
 
