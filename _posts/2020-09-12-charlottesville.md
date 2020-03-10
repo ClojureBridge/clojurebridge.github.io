@@ -11,7 +11,7 @@ end-date:           2020-09-12
 registration-url:   https://www.eventbrite.com/e/clojurebridge-cville-tickets-96565402719
 city-image-url:     assets/images/events/charlottesville.jpg
 gravatar-email:     jordan@archemedx.com
-organizers:         [{"email": "jordan@archemedx.com", "github": "https://github.com/lambduhh", "name": "L. Jordan Miller", "twitter": ""}]
+organizers:         [{"email": "jordan@archemedx.com", "github": "lambduhh", "name": "L. Jordan Miller", "twitter": ""}]
 sponsors:           [{"image": "https://raw.githubusercontent.com/ClojureBridge/clojurebridge.github.io/master/assets/images/sponsors/logo-archemedx.png","name": "Archemedx", "url": "https://www.archemedx.com/"}]
 ---
 
