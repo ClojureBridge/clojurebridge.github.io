@@ -11,7 +11,7 @@ end-date:           2021-03-13
 registration-url:   https://www.meetup.com/meetup-group-JrOdKOTm/events/276303687
 city-image-url:     assets/images/events/bangalore.jpg
 gravatar-email:     sezaljain90@gmail.com
-organizers:         [{"email": "sezaljain90@gmail.com", "github": "sezaljain", "name": "Sezal Jain", "twitter": "sezal_jain"}{"email": "nid@nilenso.com", "github": "nid90", "name": "Nivedita Priyadarshini", "twitter": "nid90"}]
+organizers:         [{"email": "sezaljain90@gmail.com", "github": "sezaljain", "name": "Sezal Jain", "twitter": "sezal_jain"}, {"email": "nid@nilenso.com", "github": "nid90", "name": "Nivedita Priyadarshini", "twitter": "nid90"}]
 sponsors:           [{"image": "https://raw.githubusercontent.com/ClojureBridge/clojurebridge.github.io/master/assets/images/sponsors/logo-nilenso.png", "name": "nilenso", "url": "https://nilenso.com"}]
 ---
 
