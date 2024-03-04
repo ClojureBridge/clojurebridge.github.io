@@ -12,7 +12,7 @@ registration-url:   https://www.townscript.com/v2/e/inclojure-2024/booking/ticke
 city-image-url:     assets/images/events/bangalore.jpg
 gravatar-email:     2024@inclojure.org
 organizers:         [{"email": "2024@inclojure.org", "name": "IN/Clojure", "twitter": "in_clojure"}, {"email": "alisha@nilenso.com", "github": "alishamohanty", "name": "Alisha Mohanty", "twitter": "withloveaal"}]
-sponsors:           [{"image": "https://raw.githubusercontent.com/ClojureBridge/clojurebridge.github.io/master/assets/images/sponsors/original/nilenso-rgb-primary-transparent.png", "name": "nilenso", "url": "https://nilenso.com"}]
+sponsors:           [{"image": "https://raw.githubusercontent.com/qptr/clojurebridge.github.io/bangalore-march-2024/assets/images/sponsors/original/187/nilenso-rgb-primary-transparent.png", "name": "nilenso", "url": "https://nilenso.com"}]
 ---
 
 ClojureBridge is a beginner-friendly Clojure programming workshop for under-represented groups in tech.
